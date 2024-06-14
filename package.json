@@ -1,7 +1,7 @@
 {
-  "name": "@base-stone/store",
+  "name": "@base-stone/antd",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "author": {
     "name": "base-stone",
     "email": "leafront@126.com"
@@ -18,8 +18,8 @@
     "README.md"
   ],
   "type": "module",
-  "main": "./dist/design-store.es.prod.js",
-  "module": "./dist/design-store.es.prod.js",
+  "main": "./dist/design-antd.es.prod.js",
+  "module": "./dist/design-antd.es.prod.js",
   "exports": {
     ".": {
       "import": "./dist/design-store.es.prod.js",
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/base-stone/design-store",
   "scripts": {
-    "build:prod": "vite build",
+    "build:prod": "NODE_ENV=production vite build",
     "build:publish": "npm run build:prod && npm publish",
     "eslint": "eslint --fix ./src --ext ts",
     "prettier": "prettier --write \"./src/**/*.ts\"",
@@ -46,5 +46,8 @@
     "typescript": "^5.4.5",
     "vite": "^5.3.1",
     "vite-plugin-dts": "^3.9.1"
+  },
+  "dependencies": {
+    "antd": "^5.18.0"
   }
 }

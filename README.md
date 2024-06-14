@@ -1,5 +1,5 @@
-pnpm add @base-stone/store
-https://unpkg.com/@base-stone/store
+pnpm add @base-stone/antd
+https://unpkg.com/@base-stone/antd
 
 
 ## 常规项目代码目录
@@ -7,13 +7,4 @@ https://unpkg.com/@base-stone/store
 ```
 ├── main.ts
     
-```
-
-## Store 使用
-```
-  import { localStore, sessionStore } from '@base-stone/store' 
-  localStore.set("name", {age: 1}) //localStorage
-  localStore.get("name")
-  sessionStore.set("name", {age: 1}) //sessionStorage
-  sessionStore.get("name")
 ```
