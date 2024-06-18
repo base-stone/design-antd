@@ -28,7 +28,8 @@ import {
   Breadcrumb,
   Tag,
   ConfigProvider,
-  Badge
+  Badge,
+  Tabs
 } from 'antd'
 
 import type {
@@ -73,6 +74,7 @@ export {
   Tag,
   ConfigProvider,
   Badge,
+  Tabs,
   MenuProps,
   ColumnsType,
   GetProp,

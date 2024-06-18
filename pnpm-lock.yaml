@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   antd:
-    specifier: ^5.18.0
-    version: 5.18.1(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^5.18.2
+    version: 5.18.2(react-dom@18.3.1)(react@18.3.1)
 
 devDependencies:
   '@babel/types':
@@ -1020,8 +1020,8 @@ packages:
       color-convert: 2.0.1
     dev: true
 
-  /antd@5.18.1(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-l762vsoIpA3xsVsbIExlce3hgFgiLdflGEgdo8NFnq17Qq3fHIMJklGzM8WNpdJJ4iUk4FzritmSSnHk0Y5kZA==}
+  /antd@5.18.2(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-2RHNIaydjMcbvdHzn7/GRIcu1pfGkTBSqkQ7O5GGIwC+p086a5NFzKTmanRITFme5Iqn0If1sbWTt6XOywRKIg==}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
