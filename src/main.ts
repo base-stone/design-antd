@@ -29,13 +29,15 @@ import {
   Tag,
   ConfigProvider,
   Badge,
-  Tabs
+  Tabs,
+  Card
 } from 'antd'
 
 import type {
   MenuProps,
   GetProp,
   CascaderProps,
+  TabsProps,
   TreeDataNode
 } from 'antd'
 
@@ -75,11 +77,13 @@ export {
   ConfigProvider,
   Badge,
   Tabs,
+  Card,
   MenuProps,
   ColumnsType,
   GetProp,
   CascaderProps,
   TreeDataNode,
   TablePaginationConfig,
-  MessageInstance
+  MessageInstance,
+  TabsProps
 }
