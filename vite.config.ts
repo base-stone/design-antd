@@ -37,7 +37,6 @@ export default defineConfig({
         return `design-antd.${format}.prod.js`
       },
       formats: ['umd', 'es']
-    },
-    cssCodeSplit: false
+    }
   }
 })
